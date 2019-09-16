@@ -6,4 +6,4 @@ before_install:
   - docker build -t nolakpd504/react-docker -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true nolakpd504/React-Docker npm run test
+  - docker run -e CI=true nolakpd504/react-docker npm run test
